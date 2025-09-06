@@ -1,0 +1,72 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Common Card Style */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 16px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #2e7d32;
+}
+
+/* Buttons */
+button {
+  font-family: 'Poppins', sans-serif;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+button[aria-label^="mood"] {
+  background: none;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button[aria-label^="mood"]:hover {
+  background: #e8f5e9;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+textarea {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+}
