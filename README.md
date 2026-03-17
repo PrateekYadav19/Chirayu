@@ -1,1 +1,1 @@
-Chirayu, Your Mental Health Detector
+Chirayu, Your Mental Health Detector with great accuracy and advanced system
